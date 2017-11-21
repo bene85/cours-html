@@ -38,7 +38,8 @@ section {
 
 h1,
 h2,
-h3 {
+h3,
+h4{
     font-weight: 300;
     text-transform: uppercase;
 }
@@ -72,6 +73,10 @@ h2:after {                                      /* Permet d'inserer quelque chos
     content: "";
     margin: 0 auto;
     margin-top: 20px;
+}
+h4{
+    font-size: 20px;
+    font-weight: 400;
 }
 
 
@@ -398,13 +403,22 @@ cite img{
 /*----------------------------------------*/
 /* SECTION PLANS -PACK DE FORMATION WEB */
 /*---------------------------------------*/
+.col-sm-a{
+    box-sizing: border-box;
+}
+.plan-box{
+    box-sizing: border-box;
+}
 
+.plan-price{
+    box-sizing: border-box;
+}
 
+.plan-price-meal{
+    box-sizing: border-box;
+}
 
-
-
-
-
+    
 
 
 
