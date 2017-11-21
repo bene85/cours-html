@@ -4,14 +4,20 @@
     box-sizing: border-box;
 }
 
-html {
-    background: #fff;
+html, body {
+    background-color: #fff;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 300;
     color: #555;
     text-rendering: optimizeLegibility;
     font-family: "lato", sans-serif;
+    overflow-x: hidden;
 
+}
+body{
+    display: block;
+    text-align: left;
+    line-height: 1.5;
 }
 
 .row {
@@ -55,6 +61,7 @@ h2,
     word-spacing: 2px;
     letter-spacing: 1px;
     text-align: center;
+    padding-bottom: 50px;
 }
 
 h2:after {                                      /* Permet d'inserer quelque chose avant ou après la balise */
@@ -66,6 +73,8 @@ h2:after {                                      /* Permet d'inserer quelque chos
     margin: 0 auto;
     margin-top: 20px;
 }
+
+
 
 
 /*------------------------------*/
@@ -311,16 +320,84 @@ header {
     text-align: center;
 }
 
-
 .plan-box ul {
     list-style: none;
-
 
 }
 
 .plan-box ul li {
 }
 
+/*--------------------------------------------*/
+/* SECTION VILLES -NOS CENTRES DE FORMATION */
+/*--------------------------------------------*/
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.col-md-3{
+    flex:0 0 25%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 25%;
+    max-width: 25%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+}
+.col-md-3  img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+h3{
+    font-family: inherit;
+    line-height: 1.2;
+    color: inherit;
+    margin-top: 0;
+}
+.city-feature {
+    margin-bottom: block;
+    display: block;
+}
+i{
+    font-size: italic;
+}
+
+
+/*--------------------------------------*/
+/* SECTION AVIS - NOS REFERENCES */
+/*--------------------------------------*/
+.col-sm-4{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-right: 15px;
+}
+blockquote{
+    padding-top: 2%;
+    padding-right: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    margin:0 0 1rem;
+    display: block;
+}
+cite{
+    font-style: 145%;
+    }
+cite img{
+    border-radius: 50%;
+    height: 45 px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/*----------------------------------------*/
+/* SECTION PLANS -PACK DE FORMATION WEB */
+/*---------------------------------------*/
 
 
 
@@ -329,6 +406,19 @@ header {
 
 
 
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------*/
+/* FOOTER*/
+/*--------------------------------*/
 
 
 
@@ -344,3 +434,4 @@ header {
 /*--------------------------------*/
 /* TABLEAU PRIX FIN */
 /*--------------------------------*/
+
